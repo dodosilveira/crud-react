@@ -42,6 +42,10 @@ class CadastroProduto extends React.Component {
         this.setState(inicioCadastro);
     }
 
+    componentDidMount(){
+        console.log(this)
+    }
+
     render(){
         return(
             <>
@@ -91,7 +95,7 @@ class CadastroProduto extends React.Component {
                         </div>
                     </div>
                     
-                    <button onClick={this.onSubmit} className="btn btn-success btn-sm mt-3">Cadastrar</button>&nbsp;
+                    <button onClick={this.onSubmit} className="btn btn-success btn-sm mt-3">Editar</button>&nbsp;
                     <button onClick={this.limparCampos} className="btn btn-primary btn-sm mt-3">Limpar</button>
 
                 </fieldset>

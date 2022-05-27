@@ -19,7 +19,7 @@ function Navbar() {
               <Link className="nav-link" to="/cadastro-produto">Cadastro</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/consulta">Consulta</Link>
+              <Link className="nav-link" to="/consulta-produto">Consulta</Link>
             </li>
           </ul>
         </div>
